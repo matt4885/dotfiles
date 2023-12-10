@@ -1,11 +1,17 @@
+theme = "github_dark"
+
 [editor]
 line-number = "relative"
+middle-click-paste = true
 
 [editor.cursor-shape]
 insert = "bar"
+normal = "block"
+select = "underline"
 
 [editor.lsp]
 display-messages = true
 
-[editor.file-picker]
-hidden = false
+[keys.normal]
+X = ["extend_line_up", "extend_to_line_bounds"]
+x = ["extend_line_down", "extend_to_line_bounds"]
