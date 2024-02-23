@@ -3,6 +3,8 @@ theme = "github_dark"
 [editor]
 line-number = "relative"
 middle-click-paste = true
+true-color = true
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -13,5 +15,9 @@ select = "underline"
 display-messages = true
 
 [keys.normal]
+"A-x" = ["extend_to_line_bounds"]
 X = ["extend_line_up", "extend_to_line_bounds"]
 x = ["extend_line_down", "extend_to_line_bounds"]
+
+[keys.select]
+"A-x" = ["extend_to_line_bounds"]
